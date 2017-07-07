@@ -1,0 +1,173 @@
+.navbar
+{
+	background-color: #082b3f !important;
+}
+.navbar p
+{
+	font-size: 25px;
+	color:white;
+}
+/*small images left side blocks starting*/
+#set
+{
+	display: inline-block;
+	position: relative;
+	float:left;
+	margin-left: 5px;
+}
+.images
+{
+    margin:18px;
+	border:1px solid black;
+	cursor:pointer;
+}
+.images :hover
+{
+	border:1px solid blue;
+}
+/*ending small images left side blocks*/
+/*big images starting*/
+#bigblock
+{
+	display: block;
+	position: relative;
+	float: left;
+	margin: 1% 0% 0% 0%;
+    padding: 2% 1% 7% 0%;
+}
+#laptops,#Dell_big,#Del_laptop_big,#DELL_big,#slidelap_big,#Intel_big
+{
+	display: none;
+}
+/*big images ending*/
+/*product content start*/
+.content
+{
+	display: block;
+	position: relative;
+	float: left;
+	margin: -41% 13% 7% 37%;
+    padding: 1% 1% 4% 1%;
+}
+#heading
+{
+    font-size: 20px !important;
+}
+#current
+{
+	font-size: 15px;
+	font-weight: bold;
+	color:#a30b0d;
+}
+ul li
+{
+	margin-left: -18px;
+}
+ul li p
+{
+	margin:-2px;
+}
+.glyphicon-star
+{
+	cursor:pointer;
+	color: #ffb92d;
+}
+/*product content ending
+/*modal starting*/
+.modal-content
+{
+	width: 120%;
+	margin-left: -11% !important;
+}
+.modal-body
+{
+    padding-bottom: 0%;
+}
+.modal-body p a
+{
+	margin-left: 4%;
+}
+#modal_set
+{
+	position: relative;
+    float: left;
+    margin-left: 33px;
+    border: 1px solid #e3f9f4;
+    width: 22%;
+    padding: 3% 0% 12% 2%;
+}
+.modal_images
+{
+	display: inline-block;
+    border: 1px solid #e3f9f4;
+    margin: 6px;
+    cursor:pointer;
+}
+.border
+{
+	border:2px solid #f9b011;
+}
+#lap_set:hover,#laptop_set:hover,#Dell_set:hover,#Del_laptop_set:hover
+,#DELL_set:hover,#slidelap_set:hover,#Intel_set:hover
+{
+	border: 2px solid blue;
+}
+#modal_laptops,#modal_Dell_big,#modal_Del_laptop_big
+,#modal_DELL_big,#modal_slidelap_big,#modal_Intel_big
+{
+	display: none;
+}
+.modal_bigblock
+{
+    margin-left: 42%;
+}
+/*modal ending*/
+/*slider starting*/
+.social
+{
+	margin-left: 79%;
+    margin-top: 11%;
+    padding: 5px;
+    border:1px solid black;
+}
+.social button
+{
+    margin-left: 71px;
+}
+.panel
+{
+	padding: 7% !important;
+}
+.col-lg-2
+{
+	height:250px !important;
+}
+#left
+{
+	position: absolute;
+	left:3%;
+	margin-top: 53%;
+	font-size: 22px !important;
+	cursor: pointer;
+	padding: 10px 4px 9px 6px !important;
+    border: 1px solid black;
+}
+#right
+{
+	position: absolute;
+	left:95%;
+	margin-top: 53%;
+    font-size: 22px !important;
+    cursor: pointer;
+    padding: 10px 4px 9px 6px !important;
+    border: 1px solid black;
+}
+.row
+{
+	display: none;
+}
+.slider
+{
+	display: inline;
+}
+/*slider ending*/
